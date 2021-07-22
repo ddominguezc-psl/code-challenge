@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.formAdd {
+  padding: 10px;
+  flex: 1;
+  border-style: solid;
+  border-color: green;
+}
+
+.formSubtract {
+  padding: 10px;
+  flex: 1;
+  border-style: solid;
+  border-color: red;
+}
+
+h3.greenBalance {
+  border-style: solid;
+  border-color: green;
+}
+
+h3.redBalance {
+  border-style: solid;
+  border-color: red;
+}
+
+.table {
+  width: 100%;
+}
